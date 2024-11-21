@@ -1,0 +1,1149 @@
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => undefined
+    [price] => 350.00
+    [quantity] => 9
+    [total_price] => 3150.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => undefined
+    [price] => 350.00
+    [quantity] => 8
+    [total_price] => 2800.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => undefined
+    [price] => 350.00
+    [quantity] => 9
+    [total_price] => 3150.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => undefined
+    [price] => 350.00
+    [quantity] => 7
+    [total_price] => 2450.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => undefined
+    [price] => 350.00
+    [quantity] => 8
+    [total_price] => 2800.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => 84
+    [price] => 350.00
+    [quantity] => 7
+    [total_price] => 2450.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => 10-in-1 Whitening Soap
+    [product_id] => 84
+    [price] => 350.00
+    [quantity] => 98
+    [total_price] => 34300.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 
+    [product_name] => Relumins Collagen Box
+    [product_id] => 83
+    [price] => 220.00
+    [quantity] => 9
+    [total_price] => 1980.00
+)
+Array
+(
+    [patient_name] => Amanda Moore
+    [patient_id] => 12
+    [product_name] => Relumins Collagen Box
+    [product_id] => 83
+    [price] => 220.00
+    [quantity] => 9
+    [total_price] => 1980.00
+)
+Array
+(
+    [patient_name] => Amanda Moorea
+    [patient_id] => 12
+    [product_name] => Relumins Collagen Box
+    [product_id] => 83
+    [price] => 220.00
+    [quantity] => 9
+    [total_price] => 1980.00
+)
+Array
+(
+    [patient_name] => Michael Johnson
+    [patient_id] => 3
+    [date] => 2024-11-06 09:42:22
+)
+Array
+(
+    [patient_name] => Sarah Wilson
+    [patient_id] => 6
+    [date] => 2024-11-06 09:49:41
+    [product_name] => Array
+        (
+            [0] => Relumins Collagen Box
+            [1] => Skizin
+        )
+
+    [product_id] => Array
+        (
+            [0] => 83
+            [1] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 
+            [1] => 
+        )
+
+    [quantity] => Array
+        (
+            [0] => 
+            [1] => 
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 
+            [1] => 
+        )
+
+)
+Array
+(
+    [patient_name] => sgfsfsd
+    [patient_id] => 
+    [product_name] => 
+    [product_id] => 
+    [price] => 
+    [quantity] => 
+    [total_price] => 
+)
+Array
+(
+    [patient_name] => John Doe
+    [patient_id] => 1
+    [product_name] => Relumins Collagen Box
+    [product_id] => 83
+    [price] => 220.00
+    [quantity] => 3
+    [total_price] => 660.00
+)
+Array
+(
+    [patient_name] => John Doe
+    [patient_id] => 1
+    [date] => 
+    [price] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+    [quantity] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+Array
+(
+    [patient_name] => John Doe
+    [patient_id] => 1
+    [date] => 2024-11-06
+    [price] => Array
+        (
+            [0] => 220.00
+            [1] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 34
+            [1] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 7480.00
+            [1] => 640.00
+        )
+
+)
+Array
+(
+    [patient_name] => Michael Johnson
+    [patient_id] => 3
+    [date] => 2024-11-06
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 9
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 1980.00
+        )
+
+)
+Array
+(
+    [patient_name] => Michael Johnson
+    [patient_id] => 3
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 32
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 7040.00
+        )
+
+)
+Array
+(
+    [patient_name] => Megan Lewis
+    [patient_id] => 16
+    [date] => 2024-11-06
+)
+Array
+(
+    [patient_name] => Uawd awifwa 
+    [patient_id] => 55
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 1100.00
+        )
+
+)
+Array
+(
+    [patient_name] => James Scott
+    [patient_id] => 21
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 1100.00
+        )
+
+)
+Array
+(
+    [patient_name] => Robert Taylor
+    [patient_id] => 7
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 1100.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 5
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 83
+            [1] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+            [1] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 8
+            [1] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 880.00
+            [1] => 800.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 800.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 800.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 85
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 03
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 480.00
+        )
+
+)
+Array
+(
+    [patient_name] => Emily Davis
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 3
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 480.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 6
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2100.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 5
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 7
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2450.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 5
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 7
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2450.00
+        )
+
+)
+Array
+(
+    [patient_name] => David Brown
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 04
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 1400.00
+        )
+
+)
+Array
+(
+    [patient_name] => 
+    [patient_id] => 
+    [date] => 2024-11-06
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 640.00
+        )
+
+)
+Array
+(
+    [patient_name] => 
+    [patient_id] => 
+    [date] => 2024-11-07
+    [product_id] => Array
+        (
+            [0] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 6
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2100.00
+        )
+
+)
+Array
+(
+    [patient_name] => 
+    [patient_id] => 
+    [date] => 2024-11-07
+    [product_id] => Array
+        (
+            [0] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 6
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2100.00
+        )
+
+)
+Array
+(
+    [patient_name] => Emily Davis
+    [patient_id] => 
+    [date] => 2024-11-07
+    [product_id] => Array
+        (
+            [0] => 84
+            [1] => 87
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+            [1] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 05
+            [1] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 800.00
+            [1] => 1400.00
+        )
+
+)
+Array
+(
+    [patient_name] => William Thompson
+    [patient_id] => 9
+    [date] => 2024-11-07
+    [product_id] => Array
+        (
+            [0] => 85
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 06
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 960.00
+        )
+
+)
+Array
+(
+    [patient_name] => Emily Davis
+    [patient_id] => 4
+    [date] => 2024-11-09
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 60
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 13200.00
+        )
+
+)
+Array
+(
+    [patient_name] => 
+    [patient_id] => 
+    [date] => 2024-11-16
+)
+Array
+(
+    [patient_name] => 
+    [patient_id] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 1
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 220.00
+        )
+
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 2
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 440.00
+        )
+
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 2
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 440.00
+        )
+
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 1
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 220.00
+        )
+
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 1
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 220.00
+        )
+
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 83
+        )
+
+    [price] => Array
+        (
+            [0] => 220.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 1
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 220.00
+        )
+
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 640.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => Dr.
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 640.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => Dr.
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 640.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => Dr.
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 5
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 800.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => Dr.
+    [date] => 2024-11-16
+    [product_id] => Array
+        (
+            [0] => 85
+        )
+
+    [price] => Array
+        (
+            [0] => 160.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 4
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 640.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-19
+    [product_id] => Array
+        (
+            [0] => 152
+        )
+
+    [price] => Array
+        (
+            [0] => 750.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 3
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2250.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => 
+    [date] => 2024-11-19
+    [product_id] => Array
+        (
+            [0] => 152
+            [1] => 131
+        )
+
+    [price] => Array
+        (
+            [0] => 750.00
+            [1] => 300.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 2250.00
+            [1] => 300.00
+        )
+
+    [discount_percent] => 10
+)
+Array
+(
+    [name] => 
+    [date] => 
+    [product_id] => Array
+        (
+            [0] => 84
+            [1] => 84
+        )
+
+    [price] => Array
+        (
+            [0] => 300.00
+            [1] => 300.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 2
+            [1] => 2
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 600.00
+            [1] => 600.00
+        )
+
+    [discount_percent] => 
+)
+Array
+(
+    [name] => Simone Louis De Villa
+    [date] => 
+    [product_id] => Array
+        (
+            [0] => 85
+        )
+
+    [price] => Array
+        (
+            [0] => 350.00
+        )
+
+    [quantity] => Array
+        (
+            [0] => 01
+        )
+
+    [subtotal] => Array
+        (
+            [0] => 350.00
+        )
+
+    [discount_percent] => 
+)

@@ -1,0 +1,148 @@
+<?php
+include 'config.php';
+
+// Initialize variables
+$consultation_date = date('Y-m-d'); // Set to current date
+$diagnosis = '';
+$blood_pressure = '';
+$weight = '';
+$remarks = '';
+$patient_id = '';
+$services_id = '';
+
+// Fetch all patients for dropdown
+$patients = [];
+$patient_stmt = $conn->query("SELECT patient_id, full_name FROM patients");
+if ($patient_stmt) {
+    while ($row = $patient_stmt->fetch_assoc()) {
+        $patients[] = $row;
+    }
+}
+
+// Fetch all services for dropdown
+$services = [];
+$service_stmt = $conn->query("SELECT service_id, service_name FROM services");
+if ($service_stmt) {
+    while ($row = $service_stmt->fetch_assoc()) {
+        $services[] = $row;
+    }
+}
+
+// Handle form submission for adding patient record
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $patient_id = $_POST['patient_id'];
+    $diagnosis = $_POST['diagnosis'];
+    $services_id = $_POST['services_id'];
+    $blood_pressure = $_POST['blood_pressure'];
+    $weight = $_POST['weight'];
+    $remarks = $_POST['remarks'];
+
+    // Insert new patient record into the database
+    $insert_stmt = $conn->prepare("INSERT INTO patient_record (patient_id, consultation_date, diagnosis, services_id, blood_pressure, weight, remarks) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $insert_stmt->bind_param("ississs", $patient_id, $consultation_date, $diagnosis, $services_id, $blood_pressure, $weight, $remarks);
+
+    if ($insert_stmt->execute()) {
+        echo "<script>
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Record added successfully!',
+                    confirmButtonText: 'OK'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = 'patient_record_list.php'; // Redirect to record list
+                    }
+                });
+              </script>";
+    } else {
+        echo "<script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error adding record.',
+                    text: 'Please try again.',
+                    confirmButtonText: 'OK'
+                });
+              </script>";
+    }
+
+    $insert_stmt->close();
+}
+
+$conn->close();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Patient Record</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to right, #d16ba5, #f89456);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add Patient Record</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="patient_id">Patient</label>
+                <select class="form-control" name="patient_id" required>
+                    <option value="">Select Patient</option>
+                    <?php foreach ($patients as $patient): ?>
+                        <option value="<?php echo $patient['patient_id']; ?>"><?php echo htmlspecialchars($patient['full_name']); ?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="consultation_date">Consultation Date</label>
+                <input type="date" class="form-control" name="consultation_date" value="<?php echo $consultation_date; ?>" readonly>
+            </div>
+            <div class="form-group">
+                <label for="diagnosis">Diagnosis</label>
+                <input type="text" class="form-control" name="diagnosis" value="<?php echo htmlspecialchars($diagnosis); ?>" required>
+            </div>
+            <div class="form-group">
+                <label for="services_id">Service</label>
+                <select class="form-control" name="services_id" required>
+                    <option value="">Select Service</option>
+                    <?php foreach ($services as $service): ?>
+                        <option value="<?php echo $service['service_id']; ?>"><?php echo htmlspecialchars($service['service_name']); ?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="blood_pressure">Blood Pressure</label>
+                <input type="text" class="form-control" name="blood_pressure" value="<?php echo htmlspecialchars($blood_pressure); ?>" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Weight</label>
+                <input type="number" class="form-control" name="weight" value="<?php echo htmlspecialchars($weight); ?>" required>
+            </div>
+            <div class="form-group">
+                <label for="remarks">Remarks</label>
+                <textarea class="form-control" name="remarks" rows="3"><?php echo htmlspecialchars($remarks); ?></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Record</button>
+            <a href="patient_record_list.php" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+
+</body>
+</html>
